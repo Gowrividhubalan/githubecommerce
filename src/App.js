@@ -5,6 +5,8 @@ import { HeroSection } from './components/Herosection';
 import { ShopGrid } from './components/Shopgrid';
 import CardGrid from "./components/CardGrid";
 import HeroBanner from './components/HeroBanner';
+import SlickList from './components/SlickList';
+import BannerSection from './components/BannerSection';
 
 function App() {
   return (
@@ -19,6 +21,7 @@ function App() {
       <ShopGrid />
       <CardGrid />
       <HeroBanner />
+      <BannerSection />
       <Footer />
       
       
